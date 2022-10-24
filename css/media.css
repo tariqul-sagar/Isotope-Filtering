@@ -1,0 +1,89 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+	.title_h1 {
+	    font-size: 18px;
+	    line-height: 30px;
+	}
+	.underline {
+	    margin: 15px auto;
+	    width: 25%;
+	}
+
+
+	/*Recent start*/
+	.recent{
+		padding: 70px 0;
+	}
+	.rc_wrapper ul li {
+	    margin: 6px 12px 0px;
+	    padding: 5px;
+	}
+	.recent_card{
+		margin-top: 20px;
+	}
+	.btn-work {
+	    margin-top: 40px;
+	}
+	/*Recent end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.btn_common {
+	    font-size: 15px;
+	}
+	
+	.title_h1 {
+	    font-size: 20px;
+	}
+	.underline {
+	    margin: 18px auto;
+	    width: 15%;
+	}
+
+	/*Recent start*/
+	.recent{
+		padding: 70px 0;
+	}
+	.rc_wrapper ul li {
+	    margin: 6px 8px 10px;
+	    padding: 5px;
+	}
+	.btn-work {
+	    margin-top: 40px;
+	}
+	/*Recent end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*Recent start*/
+	.recent{
+		padding: 80px 0 100px;
+	}
+	.rc_wrapper ul li {
+	    margin: 12px 5px 25px;
+	    padding: 5px 12px;
+	}
+	/*Recent end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/*Extra large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	
+}
